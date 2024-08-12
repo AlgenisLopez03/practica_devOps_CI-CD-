@@ -1,0 +1,18 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: Instalar Apache
+      apt:
+        name: apache2
+        state: present
+
+    - name: Iniciar servicio Apache
+      service:
+        name: apache2
+        state: started
+
+    - name: Copiar archivo HTML a Apache
+      copy:
+        src: /vagrant/index.html
+        dest: /var/www/html/index.html
