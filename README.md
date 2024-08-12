@@ -49,7 +49,5 @@ Para ejecutar los pasos descritos:
 1. Clona el repositorio y sigue las instrucciones en cada sección.
 2. Utiliza los comandos proporcionados en los archivos de configuración para configurar el entorno y las herramientas.
 
-Si tienes alguna pregunta o necesitas ayuda, no dudes en abrir un *issue* en el repositorio.
 
-¡Buena suerte con tu práctica final de DevOps CI/CD!
 
